@@ -1,7 +1,7 @@
 # 讀者指南
 
-TXT的〔unit:…〕、〔modern-description〕與分隔換行是現代導航，不新增古籍句讀。引用須記版本及unit ID，再從pXX/side、所屬fXX的canvas/image_url回原圖核對。
+TXT的〔unit:…〕及〔modern-description〕是導航，不是古籍原文；兩筆現代描述在JSON layer及TEI ab subtype另標，不計入5854原印碼點。引用記版本、unit ID，再由fXX/image_url/canvas與side回官方影像。
 
-p00-par01/p00-par02是現代描述，TXT在各unit前另標〔modern-description〕，應排除於古籍原印文字統計；434原印單位與436總單位分開。metadata附文各投影一次，不再拼接為正文。
+初錄快照、物理面metadata及TEI快照不是額外正文，不要重複拼接。圖字與表列僅存文字，不重建圖形或表格語義。
 
-TEI為最小P5投影；modern-description單位另以ab subtype標示，JSON保留layer。疑讀與methods快照另存；未提供完整apparatus、ODD或Schematron，不把XML檢查當文字認證。
+TEI為最小P5投影，無完整apparatus、ODD或Schematron。請連同CORRECTIONS、uncertainties與來源折緣區閱讀；格式通過不是學術審定。

@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica1634",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -10,8 +10,8 @@
       "start": 1,
       "end": 2,
       "surface": "館",
-      "reason": "篆書第二字構形與楷字對應仍有疑，未據資料夾題名定字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "篆字左部對應食或舍的細部仍不夠確定；保留館/舘，不由館藏題名裁定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "館",
@@ -21,28 +21,12 @@
     {
       "page_id": "f03",
       "id": "unc-0002",
-      "unit_id": "p02-c04",
-      "start": 7,
-      "end": 8,
-      "surface": "楪",
-      "reason": "署名倒數三字中木旁右部刻形暫讀，需獨立覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "楪",
-        "槳",
-        "櫟"
-      ]
-    },
-    {
-      "page_id": "f03",
-      "id": "unc-0003",
       "unit_id": "p03-c03",
       "start": 2,
       "end": 4,
       "surface": "洞泣",
-      "reason": "行草兩字筆畫與偏旁不穩，保留暫讀，不依文義修通。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "局部可見同形外框及次字水旁，但首字氵與次字右部仍難定；洞泣、同注、洞注均保留。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "洞泣",
@@ -52,13 +36,13 @@
     },
     {
       "page_id": "f03",
-      "id": "unc-0004",
+      "id": "unc-0003",
       "unit_id": "p03-c05",
       "start": 1,
       "end": 2,
       "surface": "出",
-      "reason": "「死」後字筆畫草率，暫讀出。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "死後字呈短豎與上下交叉橫，仍不能從行草唯一對應出、生或也；不以文意改生。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "出",
@@ -68,13 +52,13 @@
     },
     {
       "page_id": "f03",
-      "id": "unc-0005",
+      "id": "unc-0004",
       "unit_id": "p03-c06",
       "start": 10,
       "end": 11,
       "surface": "神",
-      "reason": "左旁草寫不清，暫讀神。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "受後字左部似亻而右部申形；與神/伸草法仍難分，維持初錄並保留候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "神",
@@ -83,13 +67,13 @@
     },
     {
       "page_id": "f03",
-      "id": "unc-0034",
-      "unit_id": "p03-running-title",
+      "id": "unc-0023",
+      "unit_id": "p02-c03",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "兩條分離橫線支持二；篆字述辵部與數字的分界仍須專長覆核，保留三作反證候選；不採早期非盲稿作權威。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -97,14 +81,29 @@
       ]
     },
     {
+      "page_id": "f03",
+      "id": "unc-0058",
+      "unit_id": "p03-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
       "page_id": "f04",
-      "id": "unc-0007",
+      "id": "unc-0005",
       "unit_id": "p04-c03",
       "start": 19,
       "end": 21,
       "surface": "哀毀",
-      "reason": "兩字行草下部筆畫連接，依形暫讀，未依文意改寫。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "兩字局部雖見衣形與臼殳形，行草連接仍不足排除其他候選；不採獨立稿哀競為取代。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "哀毀",
@@ -114,13 +113,13 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0008",
+      "id": "unc-0006",
       "unit_id": "p04-c04",
       "start": 0,
       "end": 1,
       "surface": "祝",
-      "reason": "欄首字右部似兄或巳，暫讀祝。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "礻旁可見，右上口形及下曲筆可支持兄，但與見/巳草法尚有歧義，維持祝並保留。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "祝",
@@ -129,43 +128,13 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0009",
-      "unit_id": "p04-c04",
-      "start": 21,
-      "end": 22,
-      "surface": "枯",
-      "reason": "欄末字左旁及右部相連，暫讀枯。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "枯",
-        "括"
-      ]
-    },
-    {
-      "page_id": "f04",
-      "id": "unc-0010",
-      "unit_id": "p04-c06",
-      "start": 0,
-      "end": 2,
-      "surface": "偶佔",
-      "reason": "兩字行草偏旁不穩，原圖仍待覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "偶佔",
-        "倚仗"
-      ]
-    },
-    {
-      "page_id": "f04",
-      "id": "unc-0011",
+      "id": "unc-0007",
       "unit_id": "p04-c06",
       "start": 10,
       "end": 12,
       "surface": "祝為",
-      "reason": "祝後字呈連筆，暫錄為。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "祝後字有為的折筆，仍不能排除草書由；正文保留祝為，未因語意改祝由。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "祝為",
@@ -174,28 +143,29 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0012",
+      "id": "unc-0008",
       "unit_id": "p04-c08",
       "start": 11,
       "end": 12,
       "surface": "良",
-      "reason": "命後字草書，暫讀良。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "命後字草筆上半與下斜鉤相連，尚不能排除其/良等，維持良；不採獨立稿其為確讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "良",
-        "門"
+        "門",
+        "其"
       ]
     },
     {
       "page_id": "f04",
-      "id": "unc-0013",
+      "id": "unc-0009",
       "unit_id": "p05-c01",
       "start": 18,
       "end": 20,
       "surface": "感導",
-      "reason": "末兩字行草暫讀，含筆畫交疊。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "倒數第二字戌部內外相接，心/女的下部不夠清楚；保留感導/威導。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "感導",
@@ -204,28 +174,29 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0014",
+      "id": "unc-0010",
       "unit_id": "p05-c02",
       "start": 0,
       "end": 6,
-      "surface": "天命故世所為",
-      "reason": "欄首天形偏短、故字及所字草寫，未依文義修通。",
-      "cause": "initial-reading-uncertainty",
+      "surface": "其命救世所為",
+      "reason": "初錄欄首改其、故改救有筆畫支持，但其與之草法以及後段乃從/亦循仍不定；新暫讀其命救世所為仍標疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
-        "天命故世所為",
-        "夭命故世所為"
+        "其命救世所為",
+        "之命救世所為",
+        "天命故世所為"
       ]
     },
     {
       "page_id": "f04",
-      "id": "unc-0015",
+      "id": "unc-0011",
       "unit_id": "p05-c03",
       "start": 12,
       "end": 13,
       "surface": "歴",
-      "reason": "厂內部草寫不易區分，暫錄歴。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "厂下雙木與底部日/止連筆，仍難唯一區分歴/歷；不作異體正規化。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "歴",
@@ -234,13 +205,13 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0016",
+      "id": "unc-0012",
       "unit_id": "p05-c05",
       "start": 11,
       "end": 13,
       "surface": "豈能",
-      "reason": "兩字行草暫讀。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "豈下豆形較可見，但後字草筆仍不足排除欲；保留豈能/豈欲。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "豈能",
@@ -249,13 +220,13 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0035",
+      "id": "unc-0016",
       "unit_id": "p04-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -264,74 +235,88 @@
     },
     {
       "page_id": "f04",
-      "id": "unc-0036",
-      "unit_id": "p05-running-title",
+      "id": "unc-0024",
+      "unit_id": "p04-c04",
       "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "end": 6,
+      "surface": "恣言",
+      "reason": "意/言草筆短橫相接，兩稿分歧，原像素不足唯一判定；維持恣言。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
-        "二",
-        "三"
+        "恣言",
+        "恣意"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0025",
+      "unit_id": "p04-c05",
+      "start": 0,
+      "end": 1,
+      "surface": "妄",
+      "reason": "欄首亠下交叉筆與下部大/女的草法未定；原刻不能以詞義推成奕。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "妄",
+        "奕"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0026",
+      "unit_id": "p04-c07",
+      "start": 18,
+      "end": 19,
+      "surface": "乃",
+      "reason": "傳道後短小草字的末筆相接，維持乃，保留獨立稿亦作候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "乃",
+        "亦"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0059",
+      "unit_id": "p04-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0060",
+      "unit_id": "p05-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f05",
       "id": "unc-0017",
-      "unit_id": "p06-c01",
-      "start": 17,
-      "end": 18,
-      "surface": "楪",
-      "reason": "署名此字木旁右部筆畫相接，暫讀楪。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "楪",
-        "楫",
-        "槳"
-      ]
-    },
-    {
-      "page_id": "f05",
-      "id": "unc-0018",
-      "unit_id": "p07-c03",
-      "start": 3,
-      "end": 4,
-      "surface": "脉",
-      "reason": "月旁右部較草簡，暫讀脉。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "脉",
-        "脈"
-      ]
-    },
-    {
-      "page_id": "f05",
-      "id": "unc-0019",
-      "unit_id": "p07-c05",
-      "start": 12,
-      "end": 13,
-      "surface": "窃",
-      "reason": "上部窩及下部刀形暫錄窃。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "窃",
-        "竊"
-      ]
-    },
-    {
-      "page_id": "f05",
-      "id": "unc-0037",
       "unit_id": "p06-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -340,59 +325,58 @@
     },
     {
       "page_id": "f05",
-      "id": "unc-0038",
-      "unit_id": "p07-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f06",
-      "id": "unc-0020",
-      "unit_id": "p08-c09",
+      "id": "unc-0027",
+      "unit_id": "p07-c04",
       "start": 7,
       "end": 8,
-      "surface": "楪",
-      "reason": "印體木旁右部密集，暫錄楪。",
-      "cause": "initial-reading-uncertainty",
+      "surface": "愼",
+      "reason": "印體右部眞/真的上端差異仍難定，保留初錄愼，不全域統字。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
-        "楪",
-        "楫",
-        "櫟"
+        "愼",
+        "慎"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0061",
+      "unit_id": "p06-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0062",
+      "unit_id": "p07-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f06",
-      "id": "unc-0021",
-      "unit_id": "p09-c17",
-      "start": 9,
-      "end": 10,
-      "surface": "畧",
-      "reason": "奇症後字上部刻畫較密，暫錄畧。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "畧",
-        "繪"
-      ]
-    },
-    {
-      "page_id": "f06",
-      "id": "unc-0039",
+      "id": "unc-0018",
       "unit_id": "p08-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -401,89 +385,93 @@
     },
     {
       "page_id": "f06",
-      "id": "unc-0040",
-      "unit_id": "p09-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f07",
       "id": "unc-0022",
-      "unit_id": "p10-c06",
-      "start": 13,
-      "end": 14,
-      "surface": "瘡",
-      "reason": "鐵碼後字內部細畫較密，暫讀瘡。",
-      "cause": "initial-reading-uncertainty",
+      "unit_id": "p08-c04",
+      "start": 16,
+      "end": 17,
+      "surface": "歴",
+      "reason": "余後字雖可辨厂與林狀筆畫，下部日/止仍有異體疑問；不採獨立稿慙。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
-        "瘡",
-        "療"
+        "歴",
+        "歷",
+        "慙"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0063",
+      "unit_id": "p08-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0064",
+      "unit_id": "p09-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f07",
-      "id": "unc-0023",
+      "id": "unc-0013",
       "unit_id": "p10-c06",
       "start": 9,
       "end": 11,
       "surface": "噶聊",
-      "reason": "外來詞首字口旁，次字右部暫讀卯。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "原像素顯示兩字皆有緊密口部；首字右部與次字那/卯狀筆畫仍難定，兩稿皆不足確定，保留定位疑讀。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "噶聊",
-        "噶哪"
+        "噶哪",
+        "囃唧",
+        "囉哪"
       ]
     },
     {
       "page_id": "f07",
-      "id": "unc-0024",
+      "id": "unc-0014",
       "unit_id": "p10-c07",
       "start": 5,
       "end": 7,
       "surface": "噶聊",
-      "reason": "外來詞次字與上欄同形，獨立保存本欄疑讀。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "本欄原像素亦見相同外來詞；首字右部密接及次字右部仍難定，不以鄰欄或詞義消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "噶聊",
-        "噶哪"
+        "噶哪",
+        "囃唧",
+        "囉哪"
       ]
     },
     {
       "page_id": "f07",
-      "id": "unc-0025",
-      "unit_id": "p11-c02",
-      "start": 7,
-      "end": 8,
-      "surface": "楪",
-      "reason": "木旁右部密集，暫讀楪。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "楪",
-        "楫",
-        "櫟"
-      ]
-    },
-    {
-      "page_id": "f07",
-      "id": "unc-0041",
+      "id": "unc-0019",
       "unit_id": "p10-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -492,28 +480,43 @@
     },
     {
       "page_id": "f07",
-      "id": "unc-0042",
-      "unit_id": "p11-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "id": "unc-0065",
+      "unit_id": "p10-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "二",
-        "三"
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0066",
+      "unit_id": "p11-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f08",
-      "id": "unc-0026",
+      "id": "unc-0015",
       "unit_id": "p12-running-title",
       "start": 1,
       "end": 2,
       "surface": "館",
-      "reason": "版心局部字形貼近圖邊，暫讀館，仍保留疑讀。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "原 frame 的右書口即截失館的右部；無法用此面像素獨定館/舘。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "館",
@@ -522,13 +525,13 @@
     },
     {
       "page_id": "f08",
-      "id": "unc-0043",
+      "id": "unc-0020",
       "unit_id": "p12-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -537,43 +540,43 @@
     },
     {
       "page_id": "f08",
-      "id": "unc-0044",
+      "id": "unc-0067",
+      "unit_id": "p12-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0068",
       "unit_id": "p13-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "二",
-        "三"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f09",
-      "id": "unc-0006",
-      "unit_id": "p15-c04",
-      "start": 4,
-      "end": 5,
-      "surface": "曷",
-      "reason": "字下部與刻痕相接，暫讀曷。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "曷",
-        "易"
-      ]
-    },
-    {
-      "page_id": "f09",
-      "id": "unc-0045",
+      "id": "unc-0021",
       "unit_id": "p14-running-title",
       "start": 4,
       "end": 5,
       "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "右側實體書口截掉字形右半，述末筆與二/三的界線仍不足唯一判定；維持二並保留三候選。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
         "二",
@@ -582,817 +585,452 @@
     },
     {
       "page_id": "f09",
-      "id": "unc-0046",
-      "unit_id": "p15-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f10",
-      "id": "unc-0027",
-      "unit_id": "p16-c11",
-      "start": 17,
-      "end": 21,
-      "surface": "一要于飯",
-      "reason": "物後橫畫及接下字關係仍待覆核，依所見暫錄。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "一要于飯",
-        "要于飯"
-      ]
-    },
-    {
-      "page_id": "f10",
-      "id": "unc-0047",
-      "unit_id": "p16-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f10",
-      "id": "unc-0048",
-      "unit_id": "p17-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f11",
       "id": "unc-0028",
-      "unit_id": "p18-c01",
-      "start": 18,
-      "end": 19,
-      "surface": "利",
-      "reason": "湯前字左部與橫畫相接，暫讀利。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "unit_id": "p15-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "利",
-        "和"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
-      "page_id": "f11",
+      "page_id": "f09",
+      "id": "unc-0069",
+      "unit_id": "p14-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "主代理整合補記：此面外緣原印版心有截失筆畫；保留原暫讀作定位，不將半字及館/舘對碼視為確證，也不從別面補字。A組已列來源缺邊區，獨立條帶補讀亦有殘字/異讀；缺失筆畫範圍未知。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f10",
       "id": "unc-0029",
-      "unit_id": "p18-c23",
-      "start": 2,
-      "end": 3,
-      "surface": "畧",
-      "reason": "神後字刻畫較淡，暫錄畧；候選仍單一。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "unit_id": "p16-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "畧"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
-      "page_id": "f11",
+      "page_id": "f10",
       "id": "unc-0030",
-      "unit_id": "p19-c01",
-      "start": 13,
-      "end": 15,
-      "surface": "積推",
-      "reason": "積後字右旁似隹，暫錄推；未據文義修通。",
-      "cause": "initial-reading-uncertainty",
+      "unit_id": "p17-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述二書",
+        "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0042",
+      "unit_id": "p17-c04",
+      "start": 17,
+      "end": 18,
+      "surface": "嗽",
+      "reason": "嚼後字原像素detail左口可辨、右部近束欠，初錄嚥與獨立爛均不合所見；暫讀嗽，仍需人核確定原刻異形。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
       "extent": "known",
       "candidates": [
-        "積推",
-        "積堆"
+        "嗽",
+        "嚥",
+        "爛"
       ]
     },
     {
       "page_id": "f11",
-      "id": "unc-0049",
-      "unit_id": "p18-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f11",
-      "id": "unc-0050",
-      "unit_id": "p19-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f12",
       "id": "unc-0031",
-      "unit_id": "p20-c08",
-      "start": 9,
-      "end": 10,
-      "surface": "矼",
-      "reason": "尿後字左旁似石，暫錄矼，保留古字與缺筆可能。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "unit_id": "p18-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "矼",
-        "缸"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
-      "page_id": "f12",
+      "page_id": "f11",
       "id": "unc-0032",
-      "unit_id": "p21-c07",
-      "start": 1,
-      "end": 2,
-      "surface": "净",
-      "reason": "挑後字左部小點數仍有疑，暫錄净。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "unit_id": "p19-running-title",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "净",
-        "淨"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f12",
       "id": "unc-0033",
-      "unit_id": "p21-c11",
-      "start": 3,
-      "end": 7,
-      "surface": "挑福桶會",
-      "reason": "此處是依所見的連續字形暫讀，未依民俗名稱改字；仍待獨立覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "挑福桶會"
-      ]
-    },
-    {
-      "page_id": "f12",
-      "id": "unc-0051",
       "unit_id": "p20-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "start": 0,
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "二",
-        "三"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f12",
-      "id": "unc-0052",
+      "id": "unc-0034",
       "unit_id": "p21-running-title",
-      "start": 4,
-      "end": 5,
-      "surface": "二",
-      "reason": "本面版心細節直接實看，述字底筆與其後數字的界線仍有疑；暫錄二，不依封面大題三書補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二",
-        "三"
-      ]
-    },
-    {
-      "page_id": "f13",
-      "id": "unc-0054",
-      "unit_id": "p23-c02",
-      "start": 20,
-      "end": 22,
-      "surface": "陰隲",
-      "reason": "末字下部近框線，暫依字形錄隲。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "陰隲",
-        "陰騭"
-      ]
-    },
-    {
-      "page_id": "f13",
-      "id": "unc-0055",
-      "unit_id": "p23-c08",
       "start": 0,
-      "end": 10,
-      "surface": "有閉者其肚尾兩邊不有",
-      "reason": "依所見保留語句，未按文義修通；「不有」待覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "end": 6,
+      "surface": "醫館畧述二書",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
-        "有閉者其肚尾兩邊不有"
+        "醫館畧述二書",
+        "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f13",
-      "id": "unc-0075",
+      "id": "unc-0035",
       "unit_id": "p22-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f13",
-      "id": "unc-0076",
+      "id": "unc-0036",
       "unit_id": "p23-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f14",
-      "id": "unc-0077",
+      "id": "unc-0037",
       "unit_id": "p24-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f14",
-      "id": "unc-0078",
+      "id": "unc-0038",
       "unit_id": "p25-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f15",
-      "id": "unc-0056",
-      "unit_id": "p26-c06",
-      "start": 3,
-      "end": 5,
-      "surface": "節腠",
-      "reason": "腠字右旁刻線細密，暫錄，待原圖覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "節腠"
-      ]
-    },
-    {
-      "page_id": "f15",
-      "id": "unc-0079",
+      "id": "unc-0039",
       "unit_id": "p26-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f15",
-      "id": "unc-0080",
+      "id": "unc-0040",
       "unit_id": "p27-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f16",
-      "id": "unc-0057",
-      "unit_id": "p28-c05",
-      "start": 0,
-      "end": 3,
-      "surface": "陳祿曾",
-      "reason": "姓名第二字示旁與彔形刻線較密，暫錄祿，不從別處補全。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "陳祿曾",
-        "陳禄曾"
-      ]
-    },
-    {
-      "page_id": "f16",
-      "id": "unc-0081",
+      "id": "unc-0041",
       "unit_id": "p28-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "本面版心被折口/頁緣縱切，只存半字；保留初錄暫讀而非補足宣告。二的兩橫與述底筆可分，末書見聿與日；館/舘及首字裁失筆畫未能逐面證實。原稿/補稿錯讀不以多數消疑。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
+        "醫館畧述二書",
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f16",
-      "id": "unc-0082",
+      "id": "unc-0043",
+      "unit_id": "p28-c05",
+      "start": 1,
+      "end": 2,
+      "surface": "祿",
+      "reason": "姓名第二字右上彔/录細筆緊密，暫保留祿，未跨人名資料補字；會、三十三已據圖分別裁定。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "祿",
+        "禄"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0044",
       "unit_id": "p29-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f17",
-      "id": "unc-0058",
-      "unit_id": "p30-c03",
-      "start": 6,
-      "end": 11,
-      "surface": "二尺二闊長",
-      "reason": "量度文字依見字暫錄，未按文義另補寸、標點或換字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "二尺二闊長"
-      ]
-    },
-    {
-      "page_id": "f17",
-      "id": "unc-0059",
-      "unit_id": "p31-c04",
-      "start": 19,
-      "end": 21,
-      "surface": "名而",
-      "reason": "人名末字實見近而，未藉另頁／通行姓名修正。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "名而"
-      ]
-    },
-    {
-      "page_id": "f17",
-      "id": "unc-0083",
+      "id": "unc-0045",
       "unit_id": "p30-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f17",
-      "id": "unc-0084",
+      "id": "unc-0046",
       "unit_id": "p31-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f18",
-      "id": "unc-0060",
-      "unit_id": "p32-c03",
-      "start": 0,
-      "end": 6,
-      "surface": "未割大腎囊圖",
-      "reason": "下圖圖題首字照見字錄未，不按圖像或文義改作已。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "未割大腎囊圖"
-      ]
-    },
-    {
-      "page_id": "f18",
-      "id": "unc-0061",
-      "unit_id": "p33-c01",
-      "start": 0,
-      "end": 3,
-      "surface": "嚴翰材",
-      "reason": "姓名第三字木旁較細，暫錄材，留待覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "嚴翰材"
-      ]
-    },
-    {
-      "page_id": "f18",
-      "id": "unc-0085",
+      "id": "unc-0047",
       "unit_id": "p32-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f18",
-      "id": "unc-0086",
+      "id": "unc-0048",
       "unit_id": "p33-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f19",
-      "id": "unc-0062",
-      "unit_id": "p34-c02",
-      "start": 0,
-      "end": 2,
-      "surface": "全霖",
-      "reason": "姓名首字上、下刻線緊接，暫錄全。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "全霖",
-        "金霖"
-      ]
-    },
-    {
-      "page_id": "f19",
-      "id": "unc-0063",
-      "unit_id": "p35-c01",
-      "start": 0,
-      "end": 3,
-      "surface": "卸大廣",
-      "reason": "姓名首字偏旁字形近卸，暫錄；不藉姓名常見性換字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "卸大廣",
-        "邱大廣"
-      ]
-    },
-    {
-      "page_id": "f19",
-      "id": "unc-0087",
+      "id": "unc-0049",
       "unit_id": "p34-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f19",
-      "id": "unc-0088",
+      "id": "unc-0050",
       "unit_id": "p35-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f20",
-      "id": "unc-0053",
-      "unit_id": "p37-c05",
-      "start": 6,
-      "end": 7,
-      "surface": "葆",
-      "reason": "人名末字左旁與頂部刻線近連接，暫讀葆，保留原圖覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "葆",
-        "祿"
-      ]
-    },
-    {
-      "page_id": "f20",
-      "id": "unc-0064",
-      "unit_id": "p36-c01",
-      "start": 17,
-      "end": 19,
-      "surface": "肘輪",
-      "reason": "輪字依本面刻形暫錄，未按術語修正。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "肘輪"
-      ]
-    },
-    {
-      "page_id": "f20",
-      "id": "unc-0089",
+      "id": "unc-0051",
       "unit_id": "p36-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f20",
-      "id": "unc-0090",
+      "id": "unc-0052",
       "unit_id": "p37-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f21",
-      "id": "unc-0065",
-      "unit_id": "p38-c05",
-      "start": 0,
-      "end": 4,
-      "surface": "鋤經堂倪",
-      "reason": "堂號首字金旁細線，暫錄鋤，待局部覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "鋤經堂倪"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0066",
-      "unit_id": "p39-c05",
-      "start": 0,
-      "end": 3,
-      "surface": "鄧秬洼",
-      "reason": "人名／商號刻字細線或密集，暫讀保留，將回看局部。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "鄧秬洼"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0067",
-      "unit_id": "p39-c06",
-      "start": 0,
-      "end": 3,
-      "surface": "何靄臣",
-      "reason": "人名／商號刻字細線或密集，暫讀保留，將回看局部。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "何靄臣"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0068",
-      "unit_id": "p39-c08",
-      "start": 0,
-      "end": 3,
-      "surface": "劉荔雲",
-      "reason": "已回看同來源姓名局部，第二字下部見三力形，暫錄荔，未用藜。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "劉荔雲"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0069",
-      "unit_id": "p39-c09",
-      "start": 0,
-      "end": 3,
-      "surface": "唐靜巷",
-      "reason": "人名／商號刻字細線或密集，暫讀保留，將回看局部。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "唐靜巷"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0070",
-      "unit_id": "p39-c10",
-      "start": 0,
-      "end": 3,
-      "surface": "譚裕功",
-      "reason": "已回看同來源局部，衣旁及谷形暫讀裕；保留另一候選。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "譚裕功",
-        "譚祐功"
-      ]
-    },
-    {
-      "page_id": "f21",
-      "id": "unc-0091",
+      "id": "unc-0053",
       "unit_id": "p38-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f21",
-      "id": "unc-0092",
+      "id": "unc-0054",
       "unit_id": "p39-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f22",
-      "id": "unc-0071",
-      "unit_id": "p40-c13",
-      "start": 0,
-      "end": 3,
-      "surface": "林海篤",
-      "reason": "姓名末字竹頭與下部筆畫密集，暫讀篤。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "林海篤"
-      ]
-    },
-    {
-      "page_id": "f22",
-      "id": "unc-0072",
-      "unit_id": "p41-c02",
-      "start": 0,
-      "end": 3,
-      "surface": "羅璞生",
-      "reason": "姓名第二字王旁內刻線細密，暫讀璞。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "羅璞生"
-      ]
-    },
-    {
-      "page_id": "f22",
-      "id": "unc-0093",
+      "id": "unc-0055",
       "unit_id": "p40-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f22",
-      "id": "unc-0094",
+      "id": "unc-0056",
       "unit_id": "p41-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]
     },
     {
       "page_id": "f23",
-      "id": "unc-0073",
-      "unit_id": "p42-c03",
-      "start": 4,
-      "end": 6,
-      "surface": "來貧",
-      "reason": "用人下方二字暫依見形錄，待細節覆核，不按帳目文義替換。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "來貧"
-      ]
-    },
-    {
-      "page_id": "f23",
-      "id": "unc-0074",
-      "unit_id": "p42-c06",
-      "start": 7,
-      "end": 9,
-      "surface": "弍拾",
-      "reason": "字形呈二與弋形，暫用弍，待覆核。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "弍拾",
-        "貳拾"
-      ]
-    },
-    {
-      "page_id": "f23",
-      "id": "unc-0095",
+      "id": "unc-0057",
       "unit_id": "p42-running-title",
       "start": 0,
       "end": 6,
       "surface": "醫舘畧述二書",
-      "reason": "逐面回看本面版心；外緣有裁切／缺筆，題名作暫讀保留，不以其他頁或資料夾題名補字。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
+      "reason": "非盲逐面全圖及書口條帶覆核後仍保留：本面版心橫向截失半字及印墨斷續，整句僅作暫讀；不依其他頁或資料夾題名補足。",
+      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+      "extent": "located-unit",
       "candidates": [
         "醫舘畧述二書"
       ]

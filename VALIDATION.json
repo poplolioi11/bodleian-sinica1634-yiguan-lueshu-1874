@@ -18,13 +18,13 @@
   "counts": {
     "images": 24,
     "units": 436,
-    "unicode_code_points": 5566,
-    "uncertainties": 95
+    "unicode_code_points": 5918,
+    "uncertainties": 69
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "1fa92008dfaba2677202f9758514b992cb21a3dde8a6ca05a987cdeef451d9e1",
+      "sha256": "c54e2aaca91542b3bb95e240128c6bad92d5881df462af94758b4a527b70a8e6",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -39,12 +39,12 @@
     }
   },
   "input_sha256": {
-    "book": "0a17064de57f0e8374677196f2e937439b745894ee3568bdb6feaaa9d7c777fa",
+    "book": "768e40e0ebf893d91bd25f65b1c144f1d6e1b2389fe7a9e05db1e4a502e30a84",
     "sources": "e1a93627e8375b169a46da13bd82f8eda9da450885834604d9adc3d8e798e193"
   },
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-observations-and-nonblind-source-adjudication",
+    "independent_reading_applied": true,
     "native_actual_model": null,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
@@ -55,7 +55,11 @@
       "denominator": 42,
       "severe_faces": 0,
       "unassessed_faces": 0
-    }
+    },
+    "controller_blinded": false,
+    "independent_formal_audit_complete": false,
+    "independent_failed_job_status_preserved": true,
+    "source_edge_regions": 40
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",
