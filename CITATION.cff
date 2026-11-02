@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: Please cite the fixed version and check quotations against the Bodleian source.
+type: dataset
+title: 醫館略述三書（1874，Bodleian Sinica 1634）：AI初錄資料集
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+date-released: '2026-11-02'
+url: https://github.com/poplolioi11/bodleian-sinica1634-yiguan-lueshu-1874
+abstract: Initial AI transcription of the 1874 hospital-report booklet catalogued
+  as 醫館略述三書, Bodleian Sinica 1634. The frozen initial seal-title reads 三書 provisionally,
+  while the catalog note and prior non-blind source observation suggest 二書; this conflict
+  is not silently resolved. Printed era dating differs from the Serica era string.
+  The 436 units include 434 original-print units and two modern descriptions of later
+  marks. No independent reading is applied; no human double collation, expert review,
+  peer review or measured accuracy is claimed. Historical-document digitization and
+  publication only, without biological research or modern procedural guidance.
+keywords:
+- 醫館略述三書
+- 醫館略述二書
+- Sinica 1634
+- 醫學史
+- 醫療慈善史
+- 福州
+- 捐款名錄
+- 醫館收支
+- 題簽與內題
+- 篆書題頁
+- history of medicine
+- medical charity
+- medical missions history
+- Fuzhou
+- hospital reports
+- Chinese medical print culture
+- digital humanities
+- '1874'
+- TEI XML
+doi: 10.5281/zenodo.23876721
