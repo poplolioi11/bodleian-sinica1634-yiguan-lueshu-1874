@@ -1,5 +1,11 @@
 # 醫館略述三書 · Bodleian Sinica 1634
 
+## 摘要 / Abstract
+
+本資料以牛津大學 Bodleian Libraries 藏 Sinica 1634《醫館略述三書》（1874）為底本，供醫學史、醫療慈善史及中文印刷文化的檢索、引用與後續訂正。v0.2.0 比較獨立來源觀察與固定初錄，再作非盲回圖修訂，涵蓋 24 幅影像、42 個目標物理面；436 單位包含 434 個原印文字單位與 2 筆現代描述。相較初錄有 158 單位變動，仍保留 69 筆文字疑讀及 40 處範圍未解的來源折緣區。公開 TXT、JSON、TEI XML；題名字形與紀年衝突及部分獨立觀察的稽核限制仍明示，未經人類全文雙校。
+
+This dataset supports medical-history, medical-charity and Chinese print-culture research through a transcription of the 1874 booklet catalogued as Yi guan lue shu san shu, Bodleian Libraries Sinica 1634. Version 0.2.0 compares independent source observations with the frozen initial transcription and applies non-blind revision across 24 frames and 42 target physical faces. Its 436 units distinguish 434 original-print text units from two modern descriptions. There are 158 changed unit strings, 69 textual uncertainties and 40 inspected source-edge regions of unresolved extent. Public TXT, JSON and TEI XML support discovery and correction. Title, date and independent-observation audit limitations remain explicit; no human double collation has been performed.
+
 **v0.2.0｜有界獨立觀察與非盲回圖修訂，保留未解。**
 
 整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。本成果僅歷史文獻數位化與上架；未驗證歷史醫療主張、姓名、金額，未進行生物研究、實驗或現代操作指引整理。
