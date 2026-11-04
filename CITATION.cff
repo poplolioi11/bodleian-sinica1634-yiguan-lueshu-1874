@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and check quotations against the source images.
 type: dataset
-title: 醫館略述三書（1874，Bodleian Sinica 1634）：AI獨立觀察與非盲回圖修訂資料集
+title: "醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account of a medical institution: Three writings]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu

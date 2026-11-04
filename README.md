@@ -1,4 +1,4 @@
-# 醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account of a medical institution]: Transcription dataset
+# 醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account of a medical institution: Three writings]: Transcription dataset
 
 ## 摘要 / Abstract
 
@@ -26,6 +26,8 @@ Yi guan lue shu san shu (醫館略述三書) is a Chinese hospital publication d
 語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
 
 語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201634.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201634.xml)
+
+英譯補註 / English gloss note: Three writings譯出題名中的「三書」；不據此解決已記錄的三書／二書衝突，亦不推定現存文本數或冊數。Three writings renders the title component 三書; it does not resolve the recorded 三書／二書 discrepancy or establish a count of surviving texts or volumes.
 
 **v0.2.0｜有界獨立觀察與非盲回圖修訂，保留未解。**
 
