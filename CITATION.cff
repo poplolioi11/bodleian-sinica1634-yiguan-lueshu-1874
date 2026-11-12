@@ -1,28 +1,28 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and check quotations against the source images.
 type: dataset
-title: "醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account of a medical institution: Three writings]: Transcription dataset"
+title: '醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account
+  of a medical institution: Three writings]: Transcription dataset'
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.2.0
-date-released: '2026-11-02'
-url: https://github.com/poplolioi11/bodleian-sinica1634-yiguan-lueshu-1874
-abstract: Version 0.2.0 compares independent observations with the frozen initial
-  transcription, followed by non-blind source adjudication of 42 target physical faces.
-  Of 11 full-frame Gemini jobs, ten succeeded and one failed; only bounded native
-  body observations from that failed job were accepted, without upgrading its failed/incomplete
-  audit status. Separate source-only margin, paragraph and corrected-crop supplements
-  are disclosed. The dataset contains 434 original-print units plus two modern descriptions,
-  with 158 changed unit strings, 69 text uncertainties and 40 reviewed source-edge
-  regions of unknown missing-stroke extent. These are not error or accuracy estimates.
-  No human double collation, expert review, peer review or measured accuracy is claimed.
+version: 0.2.1
+url: https://github.com/poplolioi11/bodleian-sinica1634-yiguan-lueshu-1874/releases/tag/v0.2.1
+abstract: 'Yi guan lue shu san shu [Brief account of a medical institution: Three
+  writings] is a Chinese hospital publication catalogued as 1874, with [Foochow] supplied
+  as its place of publication and 柯為樑 (Dauphin William Osgood) credited with revision.
+  Its charitable and missionary statements, hospital narratives, illustrations, donor
+  lists and financial tables support research on medical charity, fundraising and
+  institutional publishing. Based on 24 images of Bodleian Sinica 1634, the dataset
+  provides TXT, JSON and TEI XML for 42 designated physical faces, with uncertainties
+  and source mappings. The provisional AI transcription includes selected source-image
+  corrections; full human double collation and expert review have not been performed.'
 keywords:
+- Sinica 1634
 - 醫館略述三書
 - 醫館略述二書
-- Sinica 1634
 - 醫學史
 - 醫療慈善史
 - 福州
@@ -39,4 +39,6 @@ keywords:
 - digital humanities
 - '1874'
 - TEI XML
-doi: 10.5281/zenodo.23878170
+date-released: '2026-11-12'
+doi: 10.5281/zenodo.24156867
+license: CC-BY-4.0

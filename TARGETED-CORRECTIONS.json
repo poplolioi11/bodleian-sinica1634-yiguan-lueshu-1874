@@ -1,0 +1,529 @@
+{
+  "schema": "targeted-nonblind-source-corrections/1",
+  "dataset_id": "bodleian-sinica1634",
+  "base_version": "0.2.0",
+  "result_version": "0.2.1",
+  "review_role": "targeted nonblind source review; candidates already exposed; not a new whole-book independent collation",
+  "cases": [
+    {
+      "issue_id": "reader-note-b4-01",
+      "decision": "retain",
+      "occurrence_count": 5,
+      "occurrences": [
+        {
+          "unit_id": "p23-c06",
+          "range": {
+            "start": 3,
+            "end": 4,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "隆",
+          "after": "隆",
+          "full_unit_before": "始緩緩隆下腎囊惟于十中有六七至腎核隆下之時",
+          "full_unit_after": "始緩緩隆下腎囊惟于十中有六七至腎核隆下之時",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d384c315-01eb-4f6a-9bc5-e3ca4d79d8c5/full/3000,/0/default.jpg",
+            "sha256": "ad65f6e2fa4c5e9c8ea7e767af1e6036254c85b64d4f1aa323912d26fba216ec",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            550,
+            400,
+            750,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "逐處可見阜旁；右部上夂、下有一橫及生的多橫與中豎，支持隆。不是只從下降語意或同書一致推定降。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p23-c06",
+          "range": {
+            "start": 17,
+            "end": 18,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "隆",
+          "after": "隆",
+          "full_unit_before": "始緩緩隆下腎囊惟于十中有六七至腎核隆下之時",
+          "full_unit_after": "始緩緩隆下腎囊惟于十中有六七至腎核隆下之時",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d384c315-01eb-4f6a-9bc5-e3ca4d79d8c5/full/3000,/0/default.jpg",
+            "sha256": "ad65f6e2fa4c5e9c8ea7e767af1e6036254c85b64d4f1aa323912d26fba216ec",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            550,
+            400,
+            750,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "逐處可見阜旁；右部上夂、下有一橫及生的多橫與中豎，支持隆。不是只從下降語意或同書一致推定降。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p23-c07",
+          "range": {
+            "start": 15,
+            "end": 16,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "隆",
+          "after": "隆",
+          "full_unit_before": "其門未閉今欲言自幼至長倘當腎核隆下之時其門",
+          "full_unit_after": "其門未閉今欲言自幼至長倘當腎核隆下之時其門",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d384c315-01eb-4f6a-9bc5-e3ca4d79d8c5/full/3000,/0/default.jpg",
+            "sha256": "ad65f6e2fa4c5e9c8ea7e767af1e6036254c85b64d4f1aa323912d26fba216ec",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            400,
+            400,
+            600,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "逐處可見阜旁；右部上夂、下有一橫及生的多橫與中豎，支持隆。不是只從下降語意或同書一致推定降。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p24-c01",
+          "range": {
+            "start": 1,
+            "end": 2,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "隆",
+          "after": "隆",
+          "full_unit_before": "腸隆下其醫法之葯力萬不能至也惟西國每有遇此",
+          "full_unit_after": "腸隆下其醫法之葯力萬不能至也惟西國每有遇此",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae433874-c095-49ac-813a-e1f7d217d500/full/3000,/0/default.jpg",
+            "sha256": "944576275ccd37ee00ff9a69944a9cd6f1eb952de282ef17ab63dda122af4b4c",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            2530,
+            400,
+            2730,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "逐處可見阜旁；右部上夂、下有一橫及生的多橫與中豎，支持隆。不是只從下降語意或同書一致推定降。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        },
+        {
+          "unit_id": "p24-c04",
+          "range": {
+            "start": 5,
+            "end": 6,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "隆",
+          "after": "隆",
+          "full_unit_before": "至于小腸疝隆下若手不能扶制未久必有大痛逮至",
+          "full_unit_after": "至于小腸疝隆下若手不能扶制未久必有大痛逮至",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae433874-c095-49ac-813a-e1f7d217d500/full/3000,/0/default.jpg",
+            "sha256": "944576275ccd37ee00ff9a69944a9cd6f1eb952de282ef17ab63dda122af4b4c",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            2080,
+            400,
+            2280,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "逐處可見阜旁；右部上夂、下有一橫及生的多橫與中豎，支持隆。不是只從下降語意或同書一致推定降。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-02",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p07-c01",
+          "range": {
+            "start": 3,
+            "end": 4,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "序",
+          "after": "序",
+          "full_unit_before": "嘗思醫序之爲道雖小特人之生死所關不得輕爲嘗試",
+          "full_unit_after": "嘗思醫序之爲道雖小特人之生死所關不得輕爲嘗試",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76e8d13b-be80-4557-85bc-3a932cd9bd49/full/3000,/0/default.jpg",
+            "sha256": "03c65ffae28582f39e57911358d226fc0c9e110b60bca39db6d56eaa19ab8519",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            1290,
+            400,
+            1490,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "廣部在上、內有予的折筆及下鉤，原印可見完整序字；未見術的彳與右側行部，無刪字圖據。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-03",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p28-c02",
+          "range": {
+            "start": 16,
+            "end": 17,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "問",
+          "after": "問",
+          "full_unit_before": "因舘中險症太多、不能暫離、生死未問、凡遇此症、愼勿延",
+          "full_unit_after": "因舘中險症太多、不能暫離、生死未問、凡遇此症、愼勿延",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60142d79-f579-4909-b84b-b71f38c572e8/full/3000,/0/default.jpg",
+            "sha256": "04258e3f67cb4697fbea1e7ea143c3db8bcc603e571f73927d0d247730a42316",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            2380,
+            400,
+            2580,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "門框內是口形，未見聞的耳部多橫直豎。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-04",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p16-c04",
+          "range": {
+            "start": 16,
+            "end": 17,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "酒",
+          "after": "酒",
+          "full_unit_before": "一在其人起居有節、房事不濫、勿過酒、勿多飲、盖濫食",
+          "full_unit_after": "一在其人起居有節、房事不濫、勿過酒、勿多飲、盖濫食",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/09cd5cb9-5e90-4294-9218-c91d09f32a26/full/3000,/0/default.jpg",
+            "sha256": "723d546ae459a430c452afda63521f1e17ce3e2684bd8aa1b76c22665e6b5339",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            2080,
+            400,
+            2280,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "左氵、右酉的框及內橫可見，沒有飽的食旁與包部。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-05",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p19-c01",
+          "range": {
+            "start": 17,
+            "end": 18,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "推",
+          "after": "推",
+          "full_unit_before": "後須等至三點、方可去睡、以防有積、推于婚嫁事元始",
+          "full_unit_after": "後須等至三點、方可去睡、以防有積、推于婚嫁事元始",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/75467c82-4310-47b0-ae13-7e10880654b6/full/3000,/0/default.jpg",
+            "sha256": "6aeb20b51cc41032c62f10b34e872b7c02b93170c98386cb197d8d0bd7c671d8",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            1290,
+            400,
+            1490,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "左扌、右隹的短橫層疊與中豎可見，不是至的上下結構。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-06",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p18-c01",
+          "range": {
+            "start": 21,
+            "end": 22,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "利",
+          "after": "利",
+          "full_unit_before": "常有毒出、至有病之時、不論病之輕重、每日用利湯洗",
+          "full_unit_after": "常有毒出、至有病之時、不論病之輕重、每日用利湯洗",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/75467c82-4310-47b0-ae13-7e10880654b6/full/3000,/0/default.jpg",
+            "sha256": "6aeb20b51cc41032c62f10b34e872b7c02b93170c98386cb197d8d0bd7c671d8",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            2530,
+            400,
+            2730,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "左禾、右刂的長豎可見；不以醫理或慣用詞另補字。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-07",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p04-c06",
+          "range": {
+            "start": 16,
+            "end": 17,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "之",
+          "after": "之",
+          "full_unit_before": "倚仗邪神、巫術神方、祝為醫治、種之皆謬、難以",
+          "full_unit_after": "倚仗邪神、巫術神方、祝為醫治、種之皆謬、難以",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2982d6d-538d-4d12-a4f3-8bdda6682d15/full/3000,/0/default.jpg",
+            "sha256": "b8bef324d02342297906840268c024302ed8b9d400f0d8cecdd2927fbb78ddfb",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            1785,
+            400,
+            1985,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "種後字是短點及斜折的之形，未見第二組禾重部件；沒有把種之展開成種種的原圖依據。",
+          "influence_codes": [
+            "image"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b4-08",
+      "decision": "unresolved",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p05-c02",
+          "range": {
+            "start": 17,
+            "end": 18,
+            "unit": "Unicode codepoint",
+            "convention": "0-based half-open; fixed v0.2.0 string"
+          },
+          "before": "及",
+          "after": "及",
+          "full_unit_before": "其命救世所為傳教施醫、乃從所謂愛人及己意",
+          "full_unit_after": "其命救世所為傳教施醫、乃從所謂愛人及己意",
+          "decision": "unresolved",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2982d6d-538d-4d12-a4f3-8bdda6682d15/full/3000,/0/default.jpg",
+            "sha256": "b8bef324d02342297906840268c024302ed8b9d400f0d8cecdd2927fbb78ddfb",
+            "width": 3000,
+            "height": 3324
+          },
+          "bbox": [
+            1141,
+            400,
+            1341,
+            2850
+          ],
+          "bbox_precision": "context-region; not precise glyph segmentation",
+          "reason": "原生圖見上部折筆與下部斜捺，沒有可確定的獨立女旁和口框。行草短筆仍可能有歧義，保留及，不因愛人如己成語改字。",
+          "influence_codes": [
+            "image",
+            "unresolved"
+          ],
+          "unresolved_reason": "及／如的行草部件仍不足唯一對碼；保留原暫錄及並新增定位疑讀。"
+        }
+      ]
+    }
+  ],
+  "extra_preface_operations": [
+    {
+      "unit_id": "p03-c03",
+      "range": {
+        "start": 2,
+        "end": 4,
+        "unit": "Unicode codepoint",
+        "convention": "0-based half-open; fixed v0.2.0 string"
+      },
+      "before": "洞泣",
+      "after": "問諸",
+      "full_unit_before": "此即洞泣天下達人、凡致病致死之故雖莫",
+      "full_unit_after": "此即問諸天下達人、凡致病致死之故雖莫",
+      "decision": "accept",
+      "source": {
+        "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/27a5ad96-f165-4ab7-99f4-6c9464ff4cff/full/3000,/0/default.jpg",
+        "sha256": "9b2909de8a2664a6d4a7cff10992d8378d837a29c1a1127af52e950e0da23279",
+        "width": 3000,
+        "height": 3324
+      },
+      "bbox": [
+        992,
+        400,
+        1192,
+        2850
+      ],
+      "bbox_precision": "context-region; not precise glyph segmentation",
+      "reason": "原生圖第一字有門框、框中口，不是氵同；次字左為言的點與折筆，右為者的交叉及下部折形。暫依可見部件讀問諸，列為本輪序文逐處訂正，交主代理抽核。",
+      "influence_codes": [
+        "image"
+      ],
+      "unresolved_reason": null
+    },
+    {
+      "unit_id": "p04-c08",
+      "range": {
+        "start": 11,
+        "end": 12,
+        "unit": "Unicode codepoint",
+        "convention": "0-based half-open; fixed v0.2.0 string"
+      },
+      "before": "良",
+      "after": "使",
+      "full_unit_before": "醫人疾苦、及升天時、命良徒曰、各往普天下傳教",
+      "full_unit_after": "醫人疾苦、及升天時、命使徒曰、各往普天下傳教",
+      "decision": "accept",
+      "source": {
+        "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2982d6d-538d-4d12-a4f3-8bdda6682d15/full/3000,/0/default.jpg",
+        "sha256": "b8bef324d02342297906840268c024302ed8b9d400f0d8cecdd2927fbb78ddfb",
+        "width": 3000,
+        "height": 3324
+      },
+      "bbox": [
+        1487,
+        400,
+        1687,
+        2850
+      ],
+      "bbox_precision": "context-region; not precise glyph segmentation",
+      "reason": "命後字可見左亻的撇豎與右吏的口折、下交叉筆；不具良的上下直連艮形。依原生圖採使，非按使徒詞義補字。",
+      "influence_codes": [
+        "image"
+      ],
+      "unresolved_reason": null
+    }
+  ],
+  "extra_preface_scope": "p03–05 all 23 body columns and seven other printed units reread; unchanged strings and existing unresolved readings preserved",
+  "core_case_states": {
+    "accept": 0,
+    "retain": 7,
+    "unresolved": 1
+  },
+  "literal_operations": 2,
+  "literal_codepoints_replaced": 3,
+  "normalization": "none",
+  "source_images_included": false,
+  "human_double_collation": "not-performed",
+  "expert_review": "not-performed",
+  "accuracy_measured": false
+}

@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica1634",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -16,22 +16,6 @@
       "candidates": [
         "館",
         "舘"
-      ]
-    },
-    {
-      "page_id": "f03",
-      "id": "unc-0002",
-      "unit_id": "p03-c03",
-      "start": 2,
-      "end": 4,
-      "surface": "洞泣",
-      "reason": "局部可見同形外框及次字水旁，但首字氵與次字右部仍難定；洞泣、同注、洞注均保留。",
-      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
-      "extent": "known",
-      "candidates": [
-        "洞泣",
-        "同注",
-        "洞注"
       ]
     },
     {
@@ -139,22 +123,6 @@
       "candidates": [
         "祝為",
         "祝由"
-      ]
-    },
-    {
-      "page_id": "f04",
-      "id": "unc-0008",
-      "unit_id": "p04-c08",
-      "start": 11,
-      "end": 12,
-      "surface": "良",
-      "reason": "命後字草筆上半與下斜鉤相連，尚不能排除其/良等，維持良；不採獨立稿其為確讀。",
-      "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
-      "extent": "known",
-      "candidates": [
-        "良",
-        "門",
-        "其"
       ]
     },
     {
@@ -306,6 +274,21 @@
       "candidates": [
         "醫館畧述二書",
         "醫舘畧述二書"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-targeted-20261112-b4-08",
+      "unit_id": "p05-c02",
+      "start": 17,
+      "end": 18,
+      "surface": "及",
+      "reason": "及／如的行草部件仍不足唯一對碼；保留原暫錄及並新增定位疑讀。",
+      "cause": "nonblind-targeted-reader-question-unresolved",
+      "extent": "known",
+      "candidates": [
+        "及",
+        "如"
       ]
     },
     {

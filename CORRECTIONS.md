@@ -1,3 +1,5 @@
+> 本文件原有的 v0.2.0 校讀與數量敘述保留為歷史；本版 v0.2.1 的局部非盲覆核、現行數量及未解狀態見 [METHODS.md](METHODS.md) 與 [TARGETED-CORRECTIONS.md](TARGETED-CORRECTIONS.md)。
+
 # v0.1.0至v0.2.0訂正
 
 固定初錄：https://doi.org/10.5281/zenodo.23876721；舊tag與封存檔不覆寫。

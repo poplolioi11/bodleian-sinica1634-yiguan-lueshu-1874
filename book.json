@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica1634",
-  "version": "0.2.0",
-  "title": "醫館略述三書（1874，Bodleian Sinica 1634）：AI獨立觀察與非盲回圖修訂資料集",
+  "version": "0.2.1",
+  "title": "醫館略述三書(1874;Bodleian Sinica 1634) / Yi guan lue shu san shu [Brief account of a medical institution: Three writings]: Transcription dataset",
   "quality": {
     "status": "AI-independent-observations-and-nonblind-source-adjudication",
     "independent_reading_applied": true,
@@ -19,7 +19,9 @@
     "controller_blinded": false,
     "independent_formal_audit_complete": false,
     "independent_failed_job_status_preserved": true,
-    "source_edge_regions": 40
+    "source_edge_regions": 40,
+    "targeted_reader_source_review": "nonblind selected reader questions and declared Sinica1634 preface reread; unresolved preserved; no new whole-book independent collation",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/019188cf-3884-48c4-a8ab-bfb98a65d12d/",
@@ -40,7 +42,7 @@
     "original_print_units": 434,
     "original_print_codepoints": 5854,
     "modern_description_units": 2,
-    "uncertainty_records": 69,
+    "uncertainty_records": 68,
     "square_placeholders": 0,
     "roles": {
       "body": 172,
@@ -7855,7 +7857,53 @@
           ]
         }
       }
-    ]
+    ],
+    "targeted_corrections_20261112": {
+      "base_version": "0.2.0",
+      "core_reader_questions": 8,
+      "extra_preface_reread": true,
+      "literal_operations": 2,
+      "blinded": false,
+      "human_double_collation": "not-performed",
+      "normalization": "none",
+      "limits": "No human double collation, expert review or measured accuracy. Detailed programs, prompts, crops and complete private working records are excluded.",
+      "resolved_uncertainty_history": [
+        {
+          "id": "unc-0002",
+          "unit_id": "p03-c03",
+          "start": 2,
+          "end": 4,
+          "surface": "洞泣",
+          "reason": "局部可見同形外框及次字水旁，但首字氵與次字右部仍難定；洞泣、同注、洞注均保留。",
+          "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+          "extent": "known",
+          "candidates": [
+            "洞泣",
+            "同注",
+            "洞注"
+          ]
+        },
+        {
+          "id": "unc-0008",
+          "unit_id": "p04-c08",
+          "start": 11,
+          "end": 12,
+          "surface": "良",
+          "reason": "命後字草筆上半與下斜鉤相連，尚不能排除其/良等，維持良；不採獨立稿其為確讀。",
+          "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
+          "extent": "known",
+          "candidates": [
+            "良",
+            "門",
+            "其"
+          ]
+        }
+      ],
+      "version": "0.2.1",
+      "literal_codepoints_replaced": 3,
+      "public_decision_table": "TARGETED-CORRECTIONS.json",
+      "summary": "Selected reader questions were checked against the fixed source images with candidates already known. This round is not a new full-book independent collation. Previous whole-book AI reading history remains separately preserved."
+    }
   },
   "position_convention": "疑讀以單位內Unicode碼點0起半開區間[start,end)；bbox=null。fXX為官方影像幀，pXX為物理面，p01明確排除透印而非漏頁。附文資料序不是物理座標。",
   "pages": [
@@ -7989,7 +8037,7 @@
           "layer": "original-print",
           "role": "preface",
           "side": "left",
-          "text": "此即洞泣天下達人、凡致病致死之故雖莫",
+          "text": "此即問諸天下達人、凡致病致死之故雖莫",
           "bbox": null
         },
         {
@@ -8070,21 +8118,6 @@
           "candidates": [
             "館",
             "舘"
-          ]
-        },
-        {
-          "id": "unc-0002",
-          "unit_id": "p03-c03",
-          "start": 2,
-          "end": 4,
-          "surface": "洞泣",
-          "reason": "局部可見同形外框及次字水旁，但首字氵與次字右部仍難定；洞泣、同注、洞注均保留。",
-          "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
-          "extent": "known",
-          "candidates": [
-            "洞泣",
-            "同注",
-            "洞注"
           ]
         },
         {
@@ -8223,7 +8256,7 @@
           "layer": "original-print",
           "role": "preface",
           "side": "right",
-          "text": "醫人疾苦、及升天時、命良徒曰、各往普天下傳教",
+          "text": "醫人疾苦、及升天時、命使徒曰、各往普天下傳教",
           "bbox": null
         },
         {
@@ -8357,21 +8390,6 @@
           "candidates": [
             "祝為",
             "祝由"
-          ]
-        },
-        {
-          "id": "unc-0008",
-          "unit_id": "p04-c08",
-          "start": 11,
-          "end": 12,
-          "surface": "良",
-          "reason": "命後字草筆上半與下斜鉤相連，尚不能排除其/良等，維持良；不採獨立稿其為確讀。",
-          "cause": "unresolved-after-independent-observations-and-nonblind-source-review",
-          "extent": "known",
-          "candidates": [
-            "良",
-            "門",
-            "其"
           ]
         },
         {
@@ -8513,6 +8531,20 @@
           "candidates": [
             "醫館畧述二書",
             "醫舘畧述二書"
+          ]
+        },
+        {
+          "id": "unc-targeted-20261112-b4-08",
+          "unit_id": "p05-c02",
+          "start": 17,
+          "end": 18,
+          "surface": "及",
+          "reason": "及／如的行草部件仍不足唯一對碼；保留原暫錄及並新增定位疑讀。",
+          "cause": "nonblind-targeted-reader-question-unresolved",
+          "extent": "known",
+          "candidates": [
+            "及",
+            "如"
           ]
         }
       ]
